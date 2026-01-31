@@ -1,5 +1,5 @@
-import { MapPin, ArrowDown } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { MapPin, ArrowDown } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 interface PersonalInfo {
   name: string;
@@ -15,16 +15,16 @@ interface HeroProps {
 
 const Hero = ({ personalInfo }: HeroProps) => {
   const handleScrollToContact = () => {
-    const element = document.querySelector("#contact");
+    const element = document.querySelector('#contact');
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
   const handleScrollToExpertise = () => {
-    const element = document.querySelector("#expertise");
+    const element = document.querySelector('#expertise');
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -36,18 +36,21 @@ const Hero = ({ personalInfo }: HeroProps) => {
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-accent rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-accent/50 rounded-full blur-3xl animate-float" style={{ animationDelay: "1s" }} />
+        <div
+          className="absolute bottom-20 right-10 w-96 h-96 bg-accent/50 rounded-full blur-3xl animate-float"
+          style={{ animationDelay: '1s' }}
+        />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-accent/20 rounded-full" />
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] border border-accent/10 rounded-full" />
       </div>
 
       {/* Grid Pattern Overlay */}
-      <div 
+      <div
         className="absolute inset-0 opacity-5"
         style={{
           backgroundImage: `linear-gradient(hsl(var(--accent) / 0.3) 1px, transparent 1px),
                            linear-gradient(90deg, hsl(var(--accent) / 0.3) 1px, transparent 1px)`,
-          backgroundSize: "60px 60px"
+          backgroundSize: '60px 60px',
         }}
       />
 
@@ -81,7 +84,10 @@ const Hero = ({ personalInfo }: HeroProps) => {
         </p>
 
         {/* Target Roles */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12 animate-fade-up opacity-0" style={{ animationDelay: "0.5s" }}>
+        <div
+          className="flex flex-wrap justify-center gap-2 mb-12 animate-fade-up opacity-0"
+          style={{ animationDelay: '0.5s' }}
+        >
           <span className="text-sm text-primary-foreground/50">Seeking:</span>
           {personalInfo.targetRoles.map((role, index) => (
             <span key={role} className="text-sm text-accent font-medium">
@@ -94,7 +100,7 @@ const Hero = ({ personalInfo }: HeroProps) => {
         </div>
 
         {/* CTAs */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-up opacity-0" style={{ animationDelay: "0.6s" }}>
+        <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Button
             size="lg"
             onClick={handleScrollToContact}
@@ -104,7 +110,6 @@ const Hero = ({ personalInfo }: HeroProps) => {
           </Button>
           <Button
             size="lg"
-            variant="outline"
             onClick={handleScrollToExpertise}
             className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-6 text-lg"
           >

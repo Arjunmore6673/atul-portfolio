@@ -3,8 +3,15 @@
     "name": "Atul Shinde",
     "headline": "Senior Business Development Leader in Telematics & ADAS",
     "summary": "11+ years driving growth in vehicle telematics, forging strategic partnerships with OEMs and Tier-1 suppliers, and building high-performing teams across global markets.",
-    "targetRoles": ["Senior BD Director", "Head of Strategic Partnerships", "VP Business Development"],
-    "location": ["India", "Global Markets"]
+    "targetRoles": [
+      "Senior BD Director",
+      "Head of Strategic Partnerships",
+      "VP Business Development"
+    ],
+    "location": [
+      "India",
+      "Global Markets"
+    ]
   },
   "keyAchievements": [
     {
@@ -29,30 +36,124 @@
     }
   ],
   "performanceMetrics": [
-    { "figure": "11+", "label": "Years of Expertise" },
-    { "figure": "$50M+", "label": "Pipeline Value Generated" },
-    { "figure": "150%", "label": "YoY Revenue Growth" },
-    { "figure": "25+", "label": "Strategic Partnerships" }
+    {
+      "figure": "11+",
+      "label": "Years of Expertise"
+    },
+    {
+      "figure": "$50M+",
+      "label": "Pipeline Value Generated"
+    },
+    {
+      "figure": "150%",
+      "label": "YoY Revenue Growth"
+    },
+    {
+      "figure": "25+",
+      "label": "Strategic Partnerships"
+    }
   ],
   "expertiseAreas": [
-    { "name": "Vehicle Telematics", "icon": "🚗", "description": "End-to-end fleet tracking, diagnostics, and real-time monitoring solutions", "tags": ["Fleet Management", "GPS Tracking", "Diagnostics"] },
-    { "name": "Video Telematics", "icon": "📹", "description": "AI-powered dashcam analytics for driver behavior and incident detection", "tags": ["AI Analytics", "Driver Safety", "Incident Detection"] },
-    { "name": "ADAS Solutions", "icon": "🤖", "description": "Advanced driver assistance systems including collision avoidance and lane departure", "tags": ["Collision Avoidance", "Lane Departure", "Safety Systems"] },
-    { "name": "IoT & Connectivity", "icon": "📡", "description": "Connected vehicle platforms and 5G-enabled telematics infrastructure", "tags": ["5G", "Connected Vehicles", "IoT Platforms"] }
+    {
+      "name": "Vehicle Telematics",
+      "icon": "🚗",
+      "description": "End-to-end fleet tracking, diagnostics, and real-time monitoring solutions",
+      "tags": [
+        "Fleet Management",
+        "GPS Tracking",
+        "Diagnostics"
+      ]
+    },
+    {
+      "name": "Video Telematics",
+      "icon": "📹",
+      "description": "AI-powered dashcam analytics for driver behavior and incident detection",
+      "tags": [
+        "AI Analytics",
+        "Driver Safety",
+        "Incident Detection"
+      ]
+    },
+    {
+      "name": "ADAS Solutions",
+      "icon": "🤖",
+      "description": "Advanced driver assistance systems including collision avoidance and lane departure",
+      "tags": [
+        "Collision Avoidance",
+        "Lane Departure",
+        "Safety Systems"
+      ]
+    },
+    {
+      "name": "IoT & Connectivity",
+      "icon": "📡",
+      "description": "Connected vehicle platforms and 5G-enabled telematics infrastructure",
+      "tags": [
+        "5G",
+        "Connected Vehicles",
+        "IoT Platforms"
+      ]
+    }
   ],
   "keySolutions": [
-    { "name": "IoT-enabled Fleet Management", "icon": "🔗", "description": "Comprehensive fleet visibility with real-time GPS tracking and asset management", "category": "optimize" },
-    { "name": "AI-powered Driver Safety", "icon": "🛡️", "description": "Machine learning algorithms for fatigue detection and distracted driving prevention", "category": "reduce-risk" },
-    { "name": "Predictive Maintenance", "icon": "⚙️", "description": "Data-driven vehicle health monitoring to reduce downtime and maintenance costs", "category": "optimize" },
-    { "name": "Fuel Optimization", "icon": "⛽", "description": "Route optimization and eco-driving analytics for reduced fuel consumption", "category": "profitability" },
-    { "name": "Regulatory Compliance", "icon": "📋", "description": "ELD and tachograph solutions ensuring adherence to transportation regulations", "category": "reduce-risk" },
-    { "name": "Insurance Telematics", "icon": "📊", "description": "Usage-based insurance programs leveraging driver behavior data", "category": "profitability" }
+    {
+      "name": "IoT-enabled Fleet Management",
+      "icon": "🔗",
+      "description": "Comprehensive fleet visibility with real-time GPS tracking and asset management",
+      "category": "optimize"
+    },
+    {
+      "name": "AI-powered Driver Safety",
+      "icon": "🛡️",
+      "description": "Machine learning algorithms for fatigue detection and distracted driving prevention",
+      "category": "reduce-risk"
+    },
+    {
+      "name": "Predictive Maintenance",
+      "icon": "⚙️",
+      "description": "Data-driven vehicle health monitoring to reduce downtime and maintenance costs",
+      "category": "optimize"
+    },
+    {
+      "name": "Fuel Optimization",
+      "icon": "⛽",
+      "description": "Route optimization and eco-driving analytics for reduced fuel consumption",
+      "category": "profitability"
+    },
+    {
+      "name": "Regulatory Compliance",
+      "icon": "📋",
+      "description": "ELD and tachograph solutions ensuring adherence to transportation regulations",
+      "category": "reduce-risk"
+    },
+    {
+      "name": "Insurance Telematics",
+      "icon": "📊",
+      "description": "Usage-based insurance programs leveraging driver behavior data",
+      "category": "profitability"
+    }
   ],
   "solutionCategories": [
-    { "id": "all", "label": "All Solutions", "icon": "🎯" },
-    { "id": "optimize", "label": "Optimize Operations", "icon": "⚡" },
-    { "id": "reduce-risk", "label": "Reduce Risk", "icon": "🛡️" },
-    { "id": "profitability", "label": "Boost Profitability", "icon": "💰" }
+    {
+      "id": "all",
+      "label": "All Solutions",
+      "icon": "🎯"
+    },
+    {
+      "id": "optimize",
+      "label": "Optimize Operations",
+      "icon": "⚡"
+    },
+    {
+      "id": "reduce-risk",
+      "label": "Reduce Risk",
+      "icon": "🛡️"
+    },
+    {
+      "id": "profitability",
+      "label": "Boost Profitability",
+      "icon": "💰"
+    }
   ],
   "caseStudies": [
     {
@@ -63,11 +164,24 @@
       "solution": "Deployed AI-powered video telematics with real-time driver coaching and incident detection across 500+ vehicle fleet.",
       "result": "Dramatic improvement in fleet safety performance and significant cost savings within the first year.",
       "metrics": [
-        { "value": "-40%", "label": "Collision Rate" },
-        { "value": "-30%", "label": "Insurance Costs" },
-        { "value": "12", "label": "Months to ROI" }
+        {
+          "value": "-40%",
+          "label": "Collision Rate"
+        },
+        {
+          "value": "-30%",
+          "label": "Insurance Costs"
+        },
+        {
+          "value": "12",
+          "label": "Months to ROI"
+        }
       ],
-      "technologies": ["Video Telematics", "AI Analytics", "Driver Coaching"]
+      "technologies": [
+        "Video Telematics",
+        "AI Analytics",
+        "Driver Coaching"
+      ]
     },
     {
       "id": "oem-integration",
@@ -77,11 +191,24 @@
       "solution": "Led end-to-end partnership from concept to factory-fit integration, coordinating with R&D, procurement, and aftermarket teams.",
       "result": "Successful launch of connected services platform across entire EV portfolio, creating new revenue stream.",
       "metrics": [
-        { "value": "100K+", "label": "Connected Vehicles" },
-        { "value": "$5M", "label": "Annual Recurring Revenue" },
-        { "value": "18", "label": "Month Implementation" }
+        {
+          "value": "100K+",
+          "label": "Connected Vehicles"
+        },
+        {
+          "value": "$5M",
+          "label": "Annual Recurring Revenue"
+        },
+        {
+          "value": "18",
+          "label": "Month Implementation"
+        }
       ],
-      "technologies": ["Embedded Telematics", "OEM Integration", "Connected Services"]
+      "technologies": [
+        "Embedded Telematics",
+        "OEM Integration",
+        "Connected Services"
+      ]
     },
     {
       "id": "fleet-expansion",
@@ -91,38 +218,106 @@
       "solution": "Implemented comprehensive IoT fleet management platform with predictive maintenance and route optimization.",
       "result": "Enabled 3x fleet expansion while improving delivery times and reducing operational costs.",
       "metrics": [
-        { "value": "3x", "label": "Fleet Growth" },
-        { "value": "-25%", "label": "Fuel Costs" },
-        { "value": "+15%", "label": "On-Time Delivery" }
+        {
+          "value": "3x",
+          "label": "Fleet Growth"
+        },
+        {
+          "value": "-25%",
+          "label": "Fuel Costs"
+        },
+        {
+          "value": "+15%",
+          "label": "On-Time Delivery"
+        }
       ],
-      "technologies": ["Fleet Management", "Route Optimization", "Predictive Maintenance"]
+      "technologies": [
+        "Fleet Management",
+        "Route Optimization",
+        "Predictive Maintenance"
+      ]
     }
   ],
   "partnerships": {
     "oems": [
-      { "name": "Tata Motors", "logo": "" },
-      { "name": "Mahindra & Mahindra", "logo": "" },
-      { "name": "Ashok Leyland", "logo": "" },
-      { "name": "Maruti Suzuki", "logo": "" }
+      {
+        "name": "Tata Motors",
+        "logo": ""
+      },
+      {
+        "name": "Mahindra & Mahindra",
+        "logo": ""
+      },
+      {
+        "name": "Ashok Leyland",
+        "logo": ""
+      },
+      {
+        "name": "Maruti Suzuki",
+        "logo": ""
+      }
     ],
     "tierOne": [
-      { "name": "Continental AG", "logo": "" },
-      { "name": "Bosch", "logo": "" },
-      { "name": "Denso", "logo": "" },
-      { "name": "Valeo", "logo": "" }
+      {
+        "name": "Continental AG",
+        "logo": ""
+      },
+      {
+        "name": "Bosch",
+        "logo": ""
+      },
+      {
+        "name": "Denso",
+        "logo": ""
+      },
+      {
+        "name": "Valeo",
+        "logo": ""
+      }
     ],
     "integrators": [
-      { "name": "Infosys", "logo": "" },
-      { "name": "TCS", "logo": "" },
-      { "name": "Tech Mahindra", "logo": "" },
-      { "name": "Wipro", "logo": "" }
+      {
+        "name": "Infosys",
+        "logo": ""
+      },
+      {
+        "name": "TCS",
+        "logo": ""
+      },
+      {
+        "name": "Tech Mahindra",
+        "logo": ""
+      },
+      {
+        "name": "Wipro",
+        "logo": ""
+      }
     ]
   },
   "partnerCategories": [
-    { "id": "all", "label": "All Partners", "count": 12 },
-    { "id": "oems", "label": "OEMs", "count": 4, "color": "accent" },
-    { "id": "tierOne", "label": "Tier-1 Suppliers", "count": 4, "color": "blue" },
-    { "id": "integrators", "label": "System Integrators", "count": 4, "color": "green" }
+    {
+      "id": "all",
+      "label": "All Partners",
+      "count": 12
+    },
+    {
+      "id": "oems",
+      "label": "OEMs",
+      "count": 4,
+      "color": "accent"
+    },
+    {
+      "id": "tierOne",
+      "label": "Tier-1 Suppliers",
+      "count": 4,
+      "color": "blue"
+    },
+    {
+      "id": "integrators",
+      "label": "System Integrators",
+      "count": 4,
+      "color": "green"
+    }
   ],
   "publications": [
     {
@@ -199,47 +394,137 @@
     }
   ],
   "roleAttributes": [
-    { "id": "market-expansion", "label": "Market Expansion", "category": "growth" },
-    { "id": "oem-partnerships", "label": "OEM Partnerships", "category": "partnerships" },
-    { "id": "adas-launch", "label": "ADAS Product Launch", "category": "product" },
-    { "id": "team-leadership", "label": "Team Leadership", "category": "leadership" },
-    { "id": "enterprise-sales", "label": "Enterprise Sales", "category": "sales" },
-    { "id": "strategic-planning", "label": "Strategic Planning", "category": "strategy" },
-    { "id": "channel-development", "label": "Channel Development", "category": "partnerships" },
-    { "id": "p&l-management", "label": "P&L Management", "category": "leadership" },
-    { "id": "global-markets", "label": "Global Markets", "category": "growth" },
-    { "id": "video-telematics", "label": "Video Telematics", "category": "product" }
+    {
+      "id": "market-expansion",
+      "label": "Market Expansion",
+      "category": "growth"
+    },
+    {
+      "id": "oem-partnerships",
+      "label": "OEM Partnerships",
+      "category": "partnerships"
+    },
+    {
+      "id": "adas-launch",
+      "label": "ADAS Product Launch",
+      "category": "product"
+    },
+    {
+      "id": "team-leadership",
+      "label": "Team Leadership",
+      "category": "leadership"
+    },
+    {
+      "id": "enterprise-sales",
+      "label": "Enterprise Sales",
+      "category": "sales"
+    },
+    {
+      "id": "strategic-planning",
+      "label": "Strategic Planning",
+      "category": "strategy"
+    },
+    {
+      "id": "channel-development",
+      "label": "Channel Development",
+      "category": "partnerships"
+    },
+    {
+      "id": "p&l-management",
+      "label": "P&L Management",
+      "category": "leadership"
+    },
+    {
+      "id": "global-markets",
+      "label": "Global Markets",
+      "category": "growth"
+    },
+    {
+      "id": "video-telematics",
+      "label": "Video Telematics",
+      "category": "product"
+    }
   ],
   "roleMatchingData": {
-    "market-expansion": ["Scaled Revenue Across Global Markets", "Led market expansion initiatives"],
-    "oem-partnerships": ["Forged Strategic OEM Partnerships", "OEM Integration", "automotive manufacturers"],
-    "adas-launch": ["Launched Next-Gen ADAS Solutions", "ADAS Solutions", "driver assistance"],
-    "team-leadership": ["building high-performing teams", "Built team of 15 BD professionals"],
-    "enterprise-sales": ["Drove Multimillion-Dollar Sales Pipelines", "enterprise deals", "Fortune 500"],
-    "strategic-planning": ["Strategic Partnerships", "go-to-market strategy", "strategic relationships"],
-    "channel-development": ["Channel Development", "System Integrators", "partnership ecosystem"],
-    "p&l-management": ["revenue growth", "$30M+ annual revenue", "Pipeline Value"],
-    "global-markets": ["Global Markets", "Asia-Pacific and Europe", "international markets"],
-    "video-telematics": ["Video Telematics", "AI-powered dashcam", "driver behavior"]
+    "market-expansion": [
+      "Scaled Revenue Across Global Markets",
+      "Led market expansion initiatives"
+    ],
+    "oem-partnerships": [
+      "Forged Strategic OEM Partnerships",
+      "OEM Integration",
+      "automotive manufacturers"
+    ],
+    "adas-launch": [
+      "Launched Next-Gen ADAS Solutions",
+      "ADAS Solutions",
+      "driver assistance"
+    ],
+    "team-leadership": [
+      "building high-performing teams",
+      "Built team of 15 BD professionals"
+    ],
+    "enterprise-sales": [
+      "Drove Multimillion-Dollar Sales Pipelines",
+      "enterprise deals",
+      "Fortune 500"
+    ],
+    "strategic-planning": [
+      "Strategic Partnerships",
+      "go-to-market strategy",
+      "strategic relationships"
+    ],
+    "channel-development": [
+      "Channel Development",
+      "System Integrators",
+      "partnership ecosystem"
+    ],
+    "p&l-management": [
+      "revenue growth",
+      "$30M+ annual revenue",
+      "Pipeline Value"
+    ],
+    "global-markets": [
+      "Global Markets",
+      "Asia-Pacific and Europe",
+      "international markets"
+    ],
+    "video-telematics": [
+      "Video Telematics",
+      "AI-powered dashcam",
+      "driver behavior"
+    ]
   },
   "experience": [
     {
       "role": "Director, Business Development",
       "company": "Leading Telematics Provider",
       "period": "2020 - Present",
-      "highlights": ["Led $30M+ annual revenue growth", "Expanded to 5 new international markets", "Built team of 15 BD professionals"]
+      "highlights": [
+        "Led $30M+ annual revenue growth",
+        "Expanded to 5 new international markets",
+        "Built team of 15 BD professionals"
+      ]
     },
     {
       "role": "Senior Manager, Strategic Partnerships",
       "company": "Global ADAS Solutions",
       "period": "2016 - 2020",
-      "highlights": ["Closed 10+ OEM partnerships", "Launched video telematics product line", "Achieved 200% quota attainment"]
+      "highlights": [
+        "Closed 10+ OEM partnerships",
+        "Launched video telematics product line",
+        "Achieved 200% quota attainment"
+      ]
     },
     {
       "role": "Business Development Manager",
       "company": "Fleet Technology Startup",
       "period": "2013 - 2016",
-      "highlights": ["First enterprise sales hire", "Built initial customer base of 50+ fleets", "Contributed to Series A funding"]
+      "highlights": [
+        "First enterprise sales hire",
+        "Built initial customer base of 50+ fleets",
+        "Contributed to Series A funding"
+      ]
     }
   ],
   "contact": {
@@ -249,17 +534,50 @@
     "availability": "Open to networking, referrals, and exploring senior leadership opportunities"
   },
   "socialLinks": [
-    { "platform": "LinkedIn", "url": "https://linkedin.com/in/atulshinde", "icon": "linkedin" },
-    { "platform": "Twitter", "url": "https://twitter.com/atulshinde", "icon": "twitter" },
-    { "platform": "Email", "url": "mailto:atul.shinde@example.com", "icon": "mail" }
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/atulshinde",
+      "icon": "linkedin"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/atulshinde",
+      "icon": "twitter"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:atul.shinde@example.com",
+      "icon": "mail"
+    }
   ],
   "navigation": [
-    { "label": "Home", "href": "#home" },
-    { "label": "Expertise", "href": "#expertise" },
-    { "label": "Case Studies", "href": "#case-studies" },
-    { "label": "Solutions", "href": "#solutions" },
-    { "label": "Partners", "href": "#partners" },
-    { "label": "Insights", "href": "#insights" },
-    { "label": "Contact", "href": "#contact" }
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "Expertise",
+      "href": "#expertise"
+    },
+    {
+      "label": "Case Studies",
+      "href": "#case-studies"
+    },
+    {
+      "label": "Solutions",
+      "href": "#solutions"
+    },
+    {
+      "label": "Partners",
+      "href": "#partners"
+    },
+    {
+      "label": "Insights",
+      "href": "#insights"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
+    }
   ]
 }
