@@ -35,18 +35,68 @@
     { "figure": "25+", "label": "Strategic Partnerships" }
   ],
   "expertiseAreas": [
-    { "name": "Vehicle Telematics", "icon": "🚗", "description": "End-to-end fleet tracking, diagnostics, and real-time monitoring solutions" },
-    { "name": "Video Telematics", "icon": "📹", "description": "AI-powered dashcam analytics for driver behavior and incident detection" },
-    { "name": "ADAS Solutions", "icon": "🤖", "description": "Advanced driver assistance systems including collision avoidance and lane departure" },
-    { "name": "IoT & Connectivity", "icon": "📡", "description": "Connected vehicle platforms and 5G-enabled telematics infrastructure" }
+    { "name": "Vehicle Telematics", "icon": "🚗", "description": "End-to-end fleet tracking, diagnostics, and real-time monitoring solutions", "tags": ["Fleet Management", "GPS Tracking", "Diagnostics"] },
+    { "name": "Video Telematics", "icon": "📹", "description": "AI-powered dashcam analytics for driver behavior and incident detection", "tags": ["AI Analytics", "Driver Safety", "Incident Detection"] },
+    { "name": "ADAS Solutions", "icon": "🤖", "description": "Advanced driver assistance systems including collision avoidance and lane departure", "tags": ["Collision Avoidance", "Lane Departure", "Safety Systems"] },
+    { "name": "IoT & Connectivity", "icon": "📡", "description": "Connected vehicle platforms and 5G-enabled telematics infrastructure", "tags": ["5G", "Connected Vehicles", "IoT Platforms"] }
   ],
   "keySolutions": [
-    { "name": "IoT-enabled Fleet Management", "icon": "🔗", "description": "Comprehensive fleet visibility with real-time GPS tracking and asset management" },
-    { "name": "AI-powered Driver Safety", "icon": "🛡️", "description": "Machine learning algorithms for fatigue detection and distracted driving prevention" },
-    { "name": "Predictive Maintenance", "icon": "⚙️", "description": "Data-driven vehicle health monitoring to reduce downtime and maintenance costs" },
-    { "name": "Fuel Optimization", "icon": "⛽", "description": "Route optimization and eco-driving analytics for reduced fuel consumption" },
-    { "name": "Regulatory Compliance", "icon": "📋", "description": "ELD and tachograph solutions ensuring adherence to transportation regulations" },
-    { "name": "Insurance Telematics", "icon": "📊", "description": "Usage-based insurance programs leveraging driver behavior data" }
+    { "name": "IoT-enabled Fleet Management", "icon": "🔗", "description": "Comprehensive fleet visibility with real-time GPS tracking and asset management", "category": "optimize" },
+    { "name": "AI-powered Driver Safety", "icon": "🛡️", "description": "Machine learning algorithms for fatigue detection and distracted driving prevention", "category": "reduce-risk" },
+    { "name": "Predictive Maintenance", "icon": "⚙️", "description": "Data-driven vehicle health monitoring to reduce downtime and maintenance costs", "category": "optimize" },
+    { "name": "Fuel Optimization", "icon": "⛽", "description": "Route optimization and eco-driving analytics for reduced fuel consumption", "category": "profitability" },
+    { "name": "Regulatory Compliance", "icon": "📋", "description": "ELD and tachograph solutions ensuring adherence to transportation regulations", "category": "reduce-risk" },
+    { "name": "Insurance Telematics", "icon": "📊", "description": "Usage-based insurance programs leveraging driver behavior data", "category": "profitability" }
+  ],
+  "solutionCategories": [
+    { "id": "all", "label": "All Solutions", "icon": "🎯" },
+    { "id": "optimize", "label": "Optimize Operations", "icon": "⚡" },
+    { "id": "reduce-risk", "label": "Reduce Risk", "icon": "🛡️" },
+    { "id": "profitability", "label": "Boost Profitability", "icon": "💰" }
+  ],
+  "caseStudies": [
+    {
+      "id": "logistics-safety",
+      "client": "Large Logistics Firm",
+      "industry": "Transportation & Logistics",
+      "challenge": "High accident rates and escalating insurance costs threatening profitability and driver retention.",
+      "solution": "Deployed AI-powered video telematics with real-time driver coaching and incident detection across 500+ vehicle fleet.",
+      "result": "Dramatic improvement in fleet safety performance and significant cost savings within the first year.",
+      "metrics": [
+        { "value": "-40%", "label": "Collision Rate" },
+        { "value": "-30%", "label": "Insurance Costs" },
+        { "value": "12", "label": "Months to ROI" }
+      ],
+      "technologies": ["Video Telematics", "AI Analytics", "Driver Coaching"]
+    },
+    {
+      "id": "oem-integration",
+      "client": "Major Automotive OEM",
+      "industry": "Automotive Manufacturing",
+      "challenge": "Needed embedded telematics solution for new electric vehicle lineup to compete with connected car offerings.",
+      "solution": "Led end-to-end partnership from concept to factory-fit integration, coordinating with R&D, procurement, and aftermarket teams.",
+      "result": "Successful launch of connected services platform across entire EV portfolio, creating new revenue stream.",
+      "metrics": [
+        { "value": "100K+", "label": "Connected Vehicles" },
+        { "value": "$5M", "label": "Annual Recurring Revenue" },
+        { "value": "18", "label": "Month Implementation" }
+      ],
+      "technologies": ["Embedded Telematics", "OEM Integration", "Connected Services"]
+    },
+    {
+      "id": "fleet-expansion",
+      "client": "Regional Fleet Operator",
+      "industry": "Last-Mile Delivery",
+      "challenge": "Rapid expansion strained operations; needed scalable solution to maintain service levels across new territories.",
+      "solution": "Implemented comprehensive IoT fleet management platform with predictive maintenance and route optimization.",
+      "result": "Enabled 3x fleet expansion while improving delivery times and reducing operational costs.",
+      "metrics": [
+        { "value": "3x", "label": "Fleet Growth" },
+        { "value": "-25%", "label": "Fuel Costs" },
+        { "value": "+15%", "label": "On-Time Delivery" }
+      ],
+      "technologies": ["Fleet Management", "Route Optimization", "Predictive Maintenance"]
+    }
   ],
   "partnerships": {
     "oems": [
@@ -67,6 +117,110 @@
       { "name": "Tech Mahindra", "logo": "" },
       { "name": "Wipro", "logo": "" }
     ]
+  },
+  "partnerCategories": [
+    { "id": "all", "label": "All Partners", "count": 12 },
+    { "id": "oems", "label": "OEMs", "count": 4, "color": "accent" },
+    { "id": "tierOne", "label": "Tier-1 Suppliers", "count": 4, "color": "blue" },
+    { "id": "integrators", "label": "System Integrators", "count": 4, "color": "green" }
+  ],
+  "publications": [
+    {
+      "title": "The Future of Fleet Safety: AI-Powered Video Telematics",
+      "type": "Article",
+      "publication": "Fleet Management Weekly",
+      "date": "2024-08",
+      "excerpt": "How machine learning is transforming driver safety programs and reducing fleet accidents by up to 40%.",
+      "url": "#"
+    },
+    {
+      "title": "OEM Partnerships in the Connected Vehicle Era",
+      "type": "Whitepaper",
+      "publication": "Automotive World",
+      "date": "2024-05",
+      "excerpt": "A strategic guide to building successful telematics partnerships with automotive manufacturers.",
+      "url": "#"
+    },
+    {
+      "title": "5G and the Next Generation of Vehicle Connectivity",
+      "type": "Podcast",
+      "publication": "IoT Insider",
+      "date": "2024-02",
+      "excerpt": "Discussion on how 5G will enable new telematics use cases and transform fleet operations.",
+      "url": "#"
+    },
+    {
+      "title": "Scaling Telematics Solutions Across Emerging Markets",
+      "type": "Conference Talk",
+      "publication": "Connected Vehicles Summit",
+      "date": "2023-11",
+      "excerpt": "Lessons learned from deploying telematics platforms across India and Southeast Asia.",
+      "url": "#"
+    }
+  ],
+  "speakingEngagements": [
+    {
+      "event": "Connected Vehicles Summit 2024",
+      "role": "Keynote Speaker",
+      "topic": "The Business Case for Advanced Driver Assistance Systems",
+      "location": "Mumbai, India",
+      "date": "2024-03"
+    },
+    {
+      "event": "Fleet Tech Conference",
+      "role": "Panelist",
+      "topic": "Building Sustainable OEM-Telematics Provider Partnerships",
+      "location": "Singapore",
+      "date": "2023-09"
+    },
+    {
+      "event": "IoT World Congress",
+      "role": "Speaker",
+      "topic": "Video Telematics: From Safety Tool to Strategic Asset",
+      "location": "Barcelona, Spain",
+      "date": "2023-05"
+    }
+  ],
+  "recognition": [
+    {
+      "title": "Top 40 Under 40 in Automotive Tech",
+      "organization": "Auto Industry Journal",
+      "year": "2023"
+    },
+    {
+      "title": "Excellence in Business Development",
+      "organization": "Fleet Management Association",
+      "year": "2022"
+    },
+    {
+      "title": "Innovation Leader Award",
+      "organization": "Telematics Update",
+      "year": "2021"
+    }
+  ],
+  "roleAttributes": [
+    { "id": "market-expansion", "label": "Market Expansion", "category": "growth" },
+    { "id": "oem-partnerships", "label": "OEM Partnerships", "category": "partnerships" },
+    { "id": "adas-launch", "label": "ADAS Product Launch", "category": "product" },
+    { "id": "team-leadership", "label": "Team Leadership", "category": "leadership" },
+    { "id": "enterprise-sales", "label": "Enterprise Sales", "category": "sales" },
+    { "id": "strategic-planning", "label": "Strategic Planning", "category": "strategy" },
+    { "id": "channel-development", "label": "Channel Development", "category": "partnerships" },
+    { "id": "p&l-management", "label": "P&L Management", "category": "leadership" },
+    { "id": "global-markets", "label": "Global Markets", "category": "growth" },
+    { "id": "video-telematics", "label": "Video Telematics", "category": "product" }
+  ],
+  "roleMatchingData": {
+    "market-expansion": ["Scaled Revenue Across Global Markets", "Led market expansion initiatives"],
+    "oem-partnerships": ["Forged Strategic OEM Partnerships", "OEM Integration", "automotive manufacturers"],
+    "adas-launch": ["Launched Next-Gen ADAS Solutions", "ADAS Solutions", "driver assistance"],
+    "team-leadership": ["building high-performing teams", "Built team of 15 BD professionals"],
+    "enterprise-sales": ["Drove Multimillion-Dollar Sales Pipelines", "enterprise deals", "Fortune 500"],
+    "strategic-planning": ["Strategic Partnerships", "go-to-market strategy", "strategic relationships"],
+    "channel-development": ["Channel Development", "System Integrators", "partnership ecosystem"],
+    "p&l-management": ["revenue growth", "$30M+ annual revenue", "Pipeline Value"],
+    "global-markets": ["Global Markets", "Asia-Pacific and Europe", "international markets"],
+    "video-telematics": ["Video Telematics", "AI-powered dashcam", "driver behavior"]
   },
   "experience": [
     {
@@ -102,9 +256,10 @@
   "navigation": [
     { "label": "Home", "href": "#home" },
     { "label": "Expertise", "href": "#expertise" },
-    { "label": "Achievements", "href": "#achievements" },
+    { "label": "Case Studies", "href": "#case-studies" },
     { "label": "Solutions", "href": "#solutions" },
     { "label": "Partners", "href": "#partners" },
+    { "label": "Insights", "href": "#insights" },
     { "label": "Contact", "href": "#contact" }
   ]
 }
