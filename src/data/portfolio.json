@@ -1,0 +1,110 @@
+{
+  "personalInfo": {
+    "name": "Atul Shinde",
+    "headline": "Senior Business Development Leader in Telematics & ADAS",
+    "summary": "11+ years driving growth in vehicle telematics, forging strategic partnerships with OEMs and Tier-1 suppliers, and building high-performing teams across global markets.",
+    "targetRoles": ["Senior BD Director", "Head of Strategic Partnerships", "VP Business Development"],
+    "location": ["India", "Global Markets"]
+  },
+  "keyAchievements": [
+    {
+      "icon": "📈",
+      "title": "Drove Multimillion-Dollar Sales Pipelines",
+      "description": "Spearheaded initiatives that built and closed complex enterprise deals with Fortune 500 automotive companies."
+    },
+    {
+      "icon": "🤝",
+      "title": "Forged Strategic OEM Partnerships",
+      "description": "Established key relationships with leading automotive manufacturers, resulting in exclusive telematics integration contracts."
+    },
+    {
+      "icon": "🌍",
+      "title": "Scaled Revenue Across Global Markets",
+      "description": "Led market expansion initiatives across Asia-Pacific and Europe, achieving 150% YoY revenue growth."
+    },
+    {
+      "icon": "🚀",
+      "title": "Launched Next-Gen ADAS Solutions",
+      "description": "Pioneered the go-to-market strategy for AI-powered driver safety solutions adopted by major fleet operators."
+    }
+  ],
+  "performanceMetrics": [
+    { "figure": "11+", "label": "Years of Expertise" },
+    { "figure": "$50M+", "label": "Pipeline Value Generated" },
+    { "figure": "150%", "label": "YoY Revenue Growth" },
+    { "figure": "25+", "label": "Strategic Partnerships" }
+  ],
+  "expertiseAreas": [
+    { "name": "Vehicle Telematics", "icon": "🚗", "description": "End-to-end fleet tracking, diagnostics, and real-time monitoring solutions" },
+    { "name": "Video Telematics", "icon": "📹", "description": "AI-powered dashcam analytics for driver behavior and incident detection" },
+    { "name": "ADAS Solutions", "icon": "🤖", "description": "Advanced driver assistance systems including collision avoidance and lane departure" },
+    { "name": "IoT & Connectivity", "icon": "📡", "description": "Connected vehicle platforms and 5G-enabled telematics infrastructure" }
+  ],
+  "keySolutions": [
+    { "name": "IoT-enabled Fleet Management", "icon": "🔗", "description": "Comprehensive fleet visibility with real-time GPS tracking and asset management" },
+    { "name": "AI-powered Driver Safety", "icon": "🛡️", "description": "Machine learning algorithms for fatigue detection and distracted driving prevention" },
+    { "name": "Predictive Maintenance", "icon": "⚙️", "description": "Data-driven vehicle health monitoring to reduce downtime and maintenance costs" },
+    { "name": "Fuel Optimization", "icon": "⛽", "description": "Route optimization and eco-driving analytics for reduced fuel consumption" },
+    { "name": "Regulatory Compliance", "icon": "📋", "description": "ELD and tachograph solutions ensuring adherence to transportation regulations" },
+    { "name": "Insurance Telematics", "icon": "📊", "description": "Usage-based insurance programs leveraging driver behavior data" }
+  ],
+  "partnerships": {
+    "oems": [
+      { "name": "Tata Motors", "logo": "" },
+      { "name": "Mahindra & Mahindra", "logo": "" },
+      { "name": "Ashok Leyland", "logo": "" },
+      { "name": "Maruti Suzuki", "logo": "" }
+    ],
+    "tierOne": [
+      { "name": "Continental AG", "logo": "" },
+      { "name": "Bosch", "logo": "" },
+      { "name": "Denso", "logo": "" },
+      { "name": "Valeo", "logo": "" }
+    ],
+    "integrators": [
+      { "name": "Infosys", "logo": "" },
+      { "name": "TCS", "logo": "" },
+      { "name": "Tech Mahindra", "logo": "" },
+      { "name": "Wipro", "logo": "" }
+    ]
+  },
+  "experience": [
+    {
+      "role": "Director, Business Development",
+      "company": "Leading Telematics Provider",
+      "period": "2020 - Present",
+      "highlights": ["Led $30M+ annual revenue growth", "Expanded to 5 new international markets", "Built team of 15 BD professionals"]
+    },
+    {
+      "role": "Senior Manager, Strategic Partnerships",
+      "company": "Global ADAS Solutions",
+      "period": "2016 - 2020",
+      "highlights": ["Closed 10+ OEM partnerships", "Launched video telematics product line", "Achieved 200% quota attainment"]
+    },
+    {
+      "role": "Business Development Manager",
+      "company": "Fleet Technology Startup",
+      "period": "2013 - 2016",
+      "highlights": ["First enterprise sales hire", "Built initial customer base of 50+ fleets", "Contributed to Series A funding"]
+    }
+  ],
+  "contact": {
+    "callToAction": "What's the next big play in connected vehicles? Let's connect and explore how we can drive innovation together.",
+    "email": "atul.shinde@example.com",
+    "phone": "+91 98765 43210",
+    "availability": "Open to networking, referrals, and exploring senior leadership opportunities"
+  },
+  "socialLinks": [
+    { "platform": "LinkedIn", "url": "https://linkedin.com/in/atulshinde", "icon": "linkedin" },
+    { "platform": "Twitter", "url": "https://twitter.com/atulshinde", "icon": "twitter" },
+    { "platform": "Email", "url": "mailto:atul.shinde@example.com", "icon": "mail" }
+  ],
+  "navigation": [
+    { "label": "Home", "href": "#home" },
+    { "label": "Expertise", "href": "#expertise" },
+    { "label": "Achievements", "href": "#achievements" },
+    { "label": "Solutions", "href": "#solutions" },
+    { "label": "Partners", "href": "#partners" },
+    { "label": "Contact", "href": "#contact" }
+  ]
+}
