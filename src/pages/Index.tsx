@@ -85,7 +85,7 @@ const Index = () => {
         <Footer name={portfolioData.personalInfo.name} />
       </Suspense>
 
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
     </div>
   );
 };
