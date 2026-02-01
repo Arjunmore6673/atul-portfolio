@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { useState, useEffect } from 'react';
+import { Menu, X } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 interface NavItem {
   label: string;
@@ -20,24 +20,24 @@ const Navbar = ({ navigation, name }: NavbarProps) => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const handleNavClick = (href: string) => {
     setIsMobileMenuOpen(false);
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-card/95 backdrop-blur-md shadow-lg border-b border-border/50"
-          : "bg-transparent"
+        true
+          ? 'bg-card/95 backdrop-blur-md shadow-lg border-b border-border/50'
+          : 'bg-transparent'
       }`}
     >
       <div className="container-narrow">
@@ -47,11 +47,11 @@ const Navbar = ({ navigation, name }: NavbarProps) => {
             href="#home"
             onClick={(e) => {
               e.preventDefault();
-              handleNavClick("#home");
+              handleNavClick('#home');
             }}
-            className="font-display text-xl font-bold text-foreground hover:text-accent transition-colors"
+            className="font-display text-xl font-bold text-foreground hover:text-accent transition-colors "
           >
-            {name.split(" ")[0]}
+            {name.split(' ')[0]}
             <span className="text-accent">.</span>
           </a>
 
@@ -67,7 +67,7 @@ const Navbar = ({ navigation, name }: NavbarProps) => {
               </button>
             ))}
             <Button
-              onClick={() => handleNavClick("#contact")}
+              onClick={() => handleNavClick('#contact')}
               className="ml-4 bg-accent hover:bg-accent/90 text-accent-foreground"
             >
               Let's Connect
@@ -98,7 +98,7 @@ const Navbar = ({ navigation, name }: NavbarProps) => {
                 </button>
               ))}
               <Button
-                onClick={() => handleNavClick("#contact")}
+                onClick={() => handleNavClick('#contact')}
                 className="mt-2 mx-4 bg-accent hover:bg-accent/90 text-accent-foreground"
               >
                 Let's Connect

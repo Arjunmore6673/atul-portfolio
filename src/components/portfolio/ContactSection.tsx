@@ -31,38 +31,38 @@ const ContactSection = ({ contact, socialLinks }: ContactSectionProps) => {
       id="contact"
       className="section-padding hero-gradient relative overflow-hidden"
     >
-      {/* Background decorations */}
+      {/* Background decorations - Responsive */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-10 right-10 w-64 h-64 bg-accent rounded-full blur-3xl" />
-        <div className="absolute bottom-10 left-10 w-48 h-48 bg-accent/50 rounded-full blur-3xl" />
+        <div className="absolute top-10 -right-10 sm:right-10 w-40 sm:w-64 h-40 sm:h-64 bg-accent rounded-full blur-3xl" />
+        <div className="absolute -bottom-10 -left-10 sm:bottom-10 sm:left-10 w-32 sm:w-48 h-32 sm:h-48 bg-accent/50 rounded-full blur-3xl" />
       </div>
 
-      <div className="container-narrow relative z-10">
+      <div className="container-narrow relative z-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           {/* Section Header */}
           <span className="inline-block px-4 py-1.5 bg-accent/20 text-accent rounded-full text-sm font-medium mb-6 animate-fade-up opacity-0">
             Let's Connect
           </span>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-primary-foreground mb-6 animate-fade-up opacity-0 stagger-1">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-primary-foreground mb-4 sm:mb-6 animate-fade-up opacity-0 stagger-1">
             {contact.callToAction}
           </h2>
 
-          <p className="text-lg text-primary-foreground/70 mb-10 animate-fade-up opacity-0 stagger-2">
+          <p className="text-base sm:text-lg text-primary-foreground/70 mb-8 sm:mb-10 animate-fade-up opacity-0 stagger-2 px-2">
             {contact.availability}
           </p>
 
           {/* Contact Methods */}
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12 animate-fade-up opacity-0 stagger-3">
+          <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-12 animate-fade-up opacity-0 stagger-3 px-2">
             <Button
               asChild
               size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-6 text-lg font-semibold glow-accent"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg font-semibold glow-accent w-full sm:w-auto"
             >
               <a href={`mailto:${contact.email}`}>
-                <Mail className="mr-2 h-5 w-5" />
+                <Mail className="mr-2 h-4 sm:h-5 w-4 sm:w-5" />
                 Email Me
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <ArrowRight className="ml-2 h-4 sm:h-5 w-4 sm:w-5" />
               </a>
             </Button>
 
@@ -70,10 +70,10 @@ const ContactSection = ({ contact, socialLinks }: ContactSectionProps) => {
               <Button
                 asChild
                 size="lg"
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-6 text-lg"
+                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg w-full sm:w-auto"
               >
                 <a href={`tel:${contact.phone.replace(/\s/g, '')}`}>
-                  <Phone className="mr-2 h-5 w-5" />
+                  <Phone className="mr-2 h-4 sm:h-5 w-4 sm:w-5" />
                   Call Me
                 </a>
               </Button>
